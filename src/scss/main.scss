@@ -1,0 +1,40 @@
+@import '../../node_modules/bourbon/app/assets/stylesheets/bourbon';
+
+/**
+ * SETTINGS
+ */
+@import "settings/colors";
+@import "settings/generic";
+@import "settings/breakpoints";
+@import "settings/grids";
+@import '../../node_modules/bourbon-neat/app/assets/stylesheets/neat';
+
+/**
+ * TOOLS
+ */
+@import "tools/headings";
+@import "tools/media-queries";
+@import "tools/vertical-align";
+
+/**
+ * GENERIC
+ */
+@import "generic/_reset";
+/**
+ * BASE
+ */
+@import "base/generic";
+@import "base/headings";
+@import "base/links";
+
+
+/**
+ * COMPONENTS
+ */
+@import "components/main-navigation";
+
+/**
+ * EXTRAS
+ */
+
+@import "../../node_modules/inuit-spacing/trumps.spacing";
