@@ -18,4 +18,4 @@ Install the package by typing: `npm install` in Terminal or CMD(as admin).
 ###I also included a way to build your files for production.
 you can run the production bundler with `npm run build-prod`
 
-I use this starter template for most of my projects...
+I use this starter template for most of my projects..
