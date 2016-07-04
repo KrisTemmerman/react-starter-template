@@ -1,0 +1,33 @@
+/*
+	Generic
+ */
+html{
+	height:100%;
+}
+body{
+	color: $base-text-color;
+	font: ($base-font-size/16) * 1em $base-font-family;
+	line-height: 1;
+	height:100%;
+
+}
+body > * {
+	&,
+	&:after,
+	&:before{
+		box-sizing: inherit;
+	}
+}
+.wrapper{
+	position:relative;
+	//@include vertical-align();
+	@include clearfix;
+	margin-top:0;
+	margin-left:rem(10);
+	margin-right:rem(10);
+	@include mq(phablet){
+		margin-top:rem(50);
+			@include outer-container(680px);
+	}
+
+}
